@@ -1,0 +1,263 @@
+/* start font */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
+/* end font font */
+
+/*start body */
+body {
+     background-color:}
+/* end body */
+/* start body */
+body {
+    color:black;
+    font-family: Roboto,helvetica,arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5m;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://www.backgroundcheckall.com/wp-content/uploads/2017/12/background-kayu-pelangi-10.jpg");
+}
+/* end body */
+
+/* start efect*/
+.snip1566 {
+       position: relative;
+       display: inline-block;
+       margin: 5px;
+       max-width: 200px;
+       width: 300%;
+       color: #bbb;
+       font-size: 17px;
+       box-shadow: none !important;
+       -webkit-transform: "translateZ"(0);
+       transform: "translateZ"(0);
+     }
+     .snip1566 *,
+     .snip1566:before,
+     .snip1566:after {
+       -webkit-box-sizing: border-box;
+       box-sizing: border-box;
+       -webkit-transition: all 0.3s linear;
+       transition: all 0.3s linear;
+     }
+     
+     .snip1566:before,
+     .snip1566:after {
+       -webkit-box-sizing: border-box;
+       box-sizing: border-box;
+       border-radius: 50%;
+       content: '';
+       position: absolute;
+       top: 0px;
+       bottom: 0px;
+       left: 0px;
+       right: 0px;
+       z-index: -1;
+       border: 2px solid #bbb;
+       border-color: transparent #bbb;
+     }
+     
+     .snip1566 img {
+       max-width: 100%;
+       backface-visibility: hidden;
+       vertical-align: top;
+       border-radius: 50%;
+       padding: 10px;
+     }
+     
+     .snip1566 figcaption {
+       position: absolute;
+       top: 5px;
+       bottom: 5px;
+       left: 5px;
+       right: 5px;
+       opacity: 0;
+       background-color: rgba(0, 0, 0, 0.9);
+       border-radius: 50%;
+     }
+     
+     .snip1566 i {
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       -webkit-transform: translate(-50%, -50%);
+       transform: translate(-50%, -50%);
+       font-size: 4em;
+       z-index: 1;
+     }
+     
+     .snip1566 a {
+       position: absolute;
+       top: 0;
+       bottom: 0;
+       left: 0;
+       right: 0;
+       z-index: 1;
+     }
+     
+     .snip1566:hover figcaption,
+     .snip1566.hover figcaption {
+       opacity: 1;
+       -webkit-transform: translateX(0);
+       transform: translateX(0);
+     }
+     
+     .snip1566:hover:before,
+     .snip1566.hover:before,
+     .snip1566:hover:after,
+     .snip1566.hover:after {
+       border-width: 10px;
+     }
+     
+     .snip1566:hover:before,
+     .snip1566.hover:before {
+       -webkit-transform: rotate(45deg);
+       transform: rotate(45deg);
+     }
+     
+     .snip1566:hover:after,
+     .snip1566.hover:after {
+       -webkit-transform: rotate(-45deg);
+       transform: rotate(-45deg);
+     }     
+/* end efect*/
+
+/* start debug */
+.bg-blue {
+       background-color:rgb(30, 53, 44);
+}
+
+.bg-red {
+       background-color: red;
+}
+/* end debug */
+
+/* start container */
+.container {
+       margin: 10px auto;
+       overflow: auto;
+       width: 90%;
+}
+.container-full {
+       margin: 10px auto;
+       overflow: auto;
+       width: 100%;
+}
+/* end container */
+
+/* start logo */
+.logo {
+       text-align: center;
+}
+/* end logo */
+
+/* start anchaor / hyperlink */
+a:link,
+a:visited {
+       color:black;
+       text-decoration: none;
+}
+a:link,
+a:visited {
+       color:white;
+       text-decoration: underline;
+}
+/* end anchaor / hyperlink */ 
+
+/*start menu primer */
+.menu-primer ul {
+       background-color:gray;
+       border-radius: 4px;
+       box-shadow:
+              0 3px 5px -1px rgb(237, 241, 240),
+              0 6px 10px 0 rgb(237, 241, 240),
+              0 1px 18px 0 rgb(237, 241, 240);
+}
+.menu-primer li {
+       border-right: 2px solid white;
+       display: inline-block;
+       margin: 0 3px
+}
+.menu-primer a {
+       color:white;
+       font-size: 13px;
+       display: inline-block;
+       letter-spacing: 8px;
+       padding: 10px 20px;
+       text-transform: uppercase;
+}
+.menu-primer a :hover {
+       background-color:white;
+       color:black;
+       text-decoration: none;
+}
+.menu-primer .active {
+       background-color: white;
+       color:black;
+       text-decoration: none;
+}
+/* end menu primer */
+
+/* start Heading */
+h1, h2, h3, h4, h5, h6 {
+       font-weight: 400;
+       letter-spacing: 1px;
+}
+h1 {
+       font-size: 28px;
+}   
+h2 {
+       font-size: 24px;
+}
+h3 {
+       font-size: 18px;
+}
+h4 {
+      font-size: 16px;
+}
+h5 {
+      font-size: 14px;
+}
+h6 {
+      font-size: 13px;
+}
+/* end Heading */
+
+/* start jumroton */
+.jumroton {
+       background-color:white;
+       border: 1px solid white;
+       border-radius:4px;
+       padding: 20px 0;
+}
+.jumbotom h1 {
+       font-size: 20px;
+       padding: 0 20px; 
+}
+/* end jumroton */
+
+/* start main */
+.main-home-one {
+       float:left;
+       width: 50%
+}
+.main-home-one {
+       float: right;
+       width: 50%
+}
+/* start main */
+
+/* start box */
+
+/* start box */
+
+/* end box */
+
+/* start */
+
+
+
+
+
+
+
